@@ -92,6 +92,7 @@ section{
     color:black;
     background: var(--main-color);
     cursor: pointer;
+    margin-left: 50px;
 }
 
 .btn:hover{
@@ -403,7 +404,14 @@ section{
 .products .box-container .box .image{
     padding: 2.5rem 0;
 }
+ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+  }
 
+  li {
+    margin-bottom: 10px;
+  }
 
 .cardimg img {
 max-width: 100%; /* Pour s'assurer que l'image ne dépasse pas la largeur de son conteneur */
@@ -443,11 +451,6 @@ h3.cardtitle:hover {
     font-size: 2.5rem;
     margin-top: 10px;
 }
-
-
-
-
-
 
 /*contact*/
 .contact .row{
@@ -775,9 +778,7 @@ right: 0;
 
 
 /* Style pour masquer visuellement l'élément audio */
-.hidden-audio {
-    display: none;
-}
+
 
 
 .video-container {
